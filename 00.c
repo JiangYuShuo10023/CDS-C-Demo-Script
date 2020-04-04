@@ -51,65 +51,50 @@ int getsTest() {
 	printf("\nYou Returnd: %s \n",str);
 
 }
+
+int space() {
+
+	printf(" \n");
+	printf(" \n");
+	printf("####################################### \n");
+	printf(" \n");
+	printf(" \n");
+
+}
+
 int main() {
 	githubAccount();
+	
+	space();
 
-	printf(" \n");
-	printf(" \n");
-	printf("####################################### \n");
-	printf(" \n");
-	printf(" \n");
+  	floatTest();
 
-  floatTest();
-
-	printf(" \n");
-	printf(" \n");
-	printf("####################################### \n");
-	printf(" \n");
-	printf(" \n");
+	space()
 
 	getsTest();
-	printf(" \n");
-	printf(" \n");
-	printf("####################################### \n");
-	printf(" \n");
-	printf(" \n");
+	
+	space()
 	
 	printf("Hello World! \n");
 	printf("This Is My First C Program!!");
 	printf("%s \n",ABOUT);
 
-	printf(" \n");
-	printf(" \n");
-	printf("####################################### \n");
-	printf(" \n");
-	printf(" \n");
+	space()
 
 	printf("The Windows's Version Is %d!! \n",VERSION_OF_WINDOWS);
 	printf("%s \n",I_MISS_PYTHON);
 
-	printf(" \n");
-	printf(" \n");
-	printf("####################################### \n");
-	printf(" \n");
-	printf(" \n");
-
+	space()
+	
 	printf("Your Screen Resloution Is %s x %s \n",x,y);
-
-	printf(" \n");
-	printf(" \n");
-	printf("####################################### \n");
-	printf(" \n");
-	printf(" \n");
+	
+	space()
 
 	printf("Our GonalBasicOperatingSystem Comming Soon! See www.fatdev.name \n");
 	printf("Members:FatManDJ,OxygenWorld89,ZeroTrueHobbies \n");
 
-	printf(" \n");
-	printf(" \n");
-	printf("####################################### \n");
-	printf(" \n");
-	printf(" \n");
+	space()
+
 
 	printf("My WSL's Unity Desktop Instlling Is So Slow.. \n");
 	printf("I'm Getting Crazy!!!! \n");
